@@ -5,8 +5,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   plugins: ['react', '@typescript-eslint', 'jest'],
@@ -37,4 +35,5 @@ module.exports = {
       },
     ],
   },
+  ignorePatterns: ['.eslintrc.js'],
 };
